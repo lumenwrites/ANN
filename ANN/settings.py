@@ -1,4 +1,7 @@
 # Django settings for ANN project.
+import os
+
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -108,6 +111,7 @@ ROOT_URLCONF = 'ANN.urls'
 WSGI_APPLICATION = 'ANN.wsgi.application'
 
 TEMPLATE_DIRS = (
+    PROJECT_PATH + '/templates/'    
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
