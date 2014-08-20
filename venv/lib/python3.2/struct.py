@@ -1,1 +1,14 @@
-/Library/Frameworks/Python.framework/Versions/3.2/lib/python3.2/struct.py
+__all__ = [
+    # Functions
+    'calcsize', 'pack', 'pack_into', 'unpack', 'unpack_from',
+
+    # Classes
+    'Struct',
+
+    # Exceptions
+    'error'
+    ]
+
+from _struct import *
+from _struct import _clearcache
+from _struct import __doc__

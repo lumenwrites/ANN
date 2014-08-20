@@ -6,7 +6,7 @@
 
 /* Remove padding and margin */ 
 * { 
-    margin: 0; 
+    margin: 0 ; 
     padding: 0; 
     border: 0;
     
@@ -29,6 +29,7 @@
 
 body { 
     background: #272b2b;
+
 }
 
 .graph {
@@ -118,4 +119,18 @@ button {
 .addInput {
     background: #f76300;
     color: white;
+}
+
+.debug {
+    background: #1a1c1c;
+    color: white;
+    width: 500px;
+    height: 145px;
+    float: left;
+    margin: 0 20px;
+    padding: 20px;    
+}
+
+.clear {
+    clear:both;
 }

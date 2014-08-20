@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Linear Regression</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="/static/css/main.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Linear Regression</h1>
+      <span id="breadcrumb">ANN tutorial examples > linear regression</span>
+    </div>
+    <!-- Graph -->
+    <div class="graph">
+      <img src="/static/img/graph.png" />
+    </div>
+    <!-- Input -->
+    <div class="input">
+      <h2>Input data</h2>
+      <hr />
+      <form action="/submit-points/" method="post">
+        {% for point in points %}
+        <input type="float" value="{{ point.posx }}" name="x{{ point.id }}" />
+        <input type="float" value="{{ point.posy }}" name="y{{ point.id }}" />
+        <!-- <button class="deleteInput" type="button">-</button> -->
+        <br/>
+        {% endfor %}
+        <!-- <input type="number" value=""/> <input type="number" value=""/> -->
+        <!-- <button class="addInput" type="button">+</button> -->
+        <!-- <hr /> -->
+        <!-- Calculate-->
+        <button class="calculate" type="submit">Calculate</button>
+      </form>
+      <a class="calculate" href="/randomize-points/" >Randomize</a>
+      {{values}}
+    </div>
+    <div class="debug">
+      {{ debug }}
+    </div>    
+  </body>
+</html>

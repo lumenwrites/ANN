@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dra",
+				"draw_graph"
+			],
+			[
+				"dr",
+				"draw_graph"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ray",
+				"rayalez"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"i",
+				"ife	if … else"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"subl",
+			"open_terminal",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lplvlsl/Dropbox/projects/visionary/visionary/static/css/main.css",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/urls.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/static/css/main.css",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/views.py",
+		"/Users/lplvlsl/Desktop/articles/_Digital Mind Don't mistake path for obstacles.html",
+		"/Users/lplvlsl/Dropbox/projects/rayalez/portfolio/templates/index_back.html",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/settings.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/templates/index.html",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/templates/perceptron.html",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/linreg/drawGraph.py",
+		"/Users/lplvlsl/Dropbox/projects/rayalez/rayalez.sublime-project",
+		"/Users/lplvlsl/Dropbox/projects/rayalez/rayalez/settings.py",
+		"/Users/lplvlsl/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/Default.sublime-package",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/Theme - Default.sublime-package",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/INSTALL",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/config-3.2m/install-sh",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/pylab_examples/image_nonuniform.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/django/contrib/admindocs/templates/admin_doc/bookmarklets.html",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/doc/mpl_toolkits/axes_grid/api/axes_divider_api.rst",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/django/core/management/commands/loaddata.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/axes_grid/demo_axes_divider.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/animation/double_pendulum_animated.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/mplot3d/offset_demo.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/api/sankey_demo_old.py",
+		"/Users/lplvlsl/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lplvlsl/Desktop/test.html",
+		"/Users/lplvlsl/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/.Python",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/django/contrib/auth/fixtures/context-processors-users.xml",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/extern/agg24/include/agg_font_cache_manager.h",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/api/font_file.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/include/python3.2m/fileobject.h",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/django/template/smartif.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/django/core/management/templates.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/site-packages/pystache/template_spec.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/venv/lib/python3.2/tempfile.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/event_handling/test_mouseclicks.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/event_handling/trifinder_event_demo.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/linreg/tests.py",
+		"/Users/lplvlsl/Dropbox/projects/AI/ANN/ANN/src/matplotlib/examples/pylab_examples/shading_example.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"python",
+			"version",
+			"0.2",
+			"4",
+			"0",
+			"4",
+			"transparent",
+			"=)",
+			"True",
+			"other",
+			"h2",
+			"static",
+			"pass",
+			"admin",
+			"tab",
+			"toQuote",
+			"hea",
+			"\n<",
+			"bu",
+			"inp",
+			"type",
+			"\" ",
+			"number",
+			"< ",
+			"input",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ann.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"portfolio/templates/index.html"
+			],
+			[
+				".css",
+				"ANN/static/css/main.css"
+			],
+			[
+				"templates/inde",
+				"ANN/templates/index.html"
+			],
+			[
+				"setting",
+				"ANN/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

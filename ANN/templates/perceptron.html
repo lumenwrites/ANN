@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Linear Regression</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="/static/css/main.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Linear Regression</h1>
+      <span id="breadcrumb">ANN tutorial examples > linear regression</span>
+    </div>
+    <!-- Graph -->
+    <div class="graph">
+      <img src="/static/img/graph.png" />
+    </div>
+    <!-- Input -->
+    <div class="input">
+      <h2>Input data</h2>
+      <hr />
+      <form action="/draw-graph/" method="post">
+        <input type="number" value="1" name="1-0" /> <input type="number" value="1" name="1-1" />
+        <button class="deleteInput" type="button">-</button>      
+        <br/>
+        <input type="number" value="2" name="2"/> <input type="number" value="2"/>
+        <button class="deleteInput" type="button">-</button>      
+        <br/>
+        <input type="number" value="3" name="3"/> <input type="number" value="3"/>
+        <button class="deleteInput" type="button">-</button>      
+        <br/>
+        <input type="number" value="4" name="4"/> <input type="number" value="4"/>
+        <button class="deleteInput" type="button">-</button>      
+        <br/>
+        <input type="number" value="5" name="5"/> <input type="number" value="5"/>
+        <button class="deleteInput" type="button">-</button>      
+        <br/>
+        <input type="number" value=""/> <input type="number" value=""/>
+        <button class="addInput" type="button">+</button>
+        <hr />
+        <!-- Calculate-->
+        <button class="calculate" type="submit">Calculate</button>
+      </form>
+      {{values}}
+    </div>    
+  </body>
+</html>
